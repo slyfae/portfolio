@@ -1,0 +1,9 @@
+* {
+    --bg: #111;
+    --fg: #ddd;
+}
+
+html {
+    background-color: var(--bg);
+    color: var(--fg);
+}
