@@ -76,7 +76,7 @@
         align-items: center;
     }
     .emblem {
-        width: 375px;
+        width: min(375px, 95vw);
         height: auto;
         opacity: 0.8;
         transition:
