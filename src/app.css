@@ -1,9 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
-    --bg: #111;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --bg: #000;
     --fg: #ddd;
+    --link: #aff;
+}
+
+a,
+a:hover,
+a:visited {
+    color: var(--link);
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
 }
 
 html {
     background-color: var(--bg);
     color: var(--fg);
+}
+
+.markdown-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 79ch;
 }

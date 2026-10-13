@@ -2,8 +2,8 @@
     import UnderConstruction from '#lib/content/under-construction.md';
 </script>
 
-<main class="notice-container">
-    <div class="card">
+<main>
+    <article class="markdown-content">
         <UnderConstruction />
-    </div>
+    </article>
 </main>

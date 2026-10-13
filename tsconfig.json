@@ -1,11 +1,13 @@
 {
-	"extends": "$app/tsconfig",
-	"compilerOptions": {
-		"strict": true
-	},
-	"include": [
-		"src",
-		"vite.config.ts",
-		"playwright.config.ts"
-	]
+    "extends": "$app/tsconfig",
+    "compilerOptions": {
+        "strict": true
+    },
+    "include": [
+        "src",
+        "vite.config.ts",
+        "playwright.config.ts",
+        "mdsvex.config.ts",
+        "mdsvex.config.ts"
+    ]
 }
