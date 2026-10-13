@@ -33,6 +33,7 @@
 		"@vitest/coverage-v8": "latest",
 		"mdsvex": "^0.12.7",
 		"playwright": "latest",
+		"rehype-external-links": "^3.0.0",
 		"storybook": "^10.6.2",
 		"svelte": "^5.57.1",
 		"svelte-check": "^4.6.0",
