@@ -33,5 +33,6 @@ html {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    max-width: 79ch;
+    max-width: min(79ch, 100vw);
+    padding: 1rem 2rem;
 }
